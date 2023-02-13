@@ -1,0 +1,178 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    padding: 0;
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto; 
+    background-color: #EE4266;
+}
+html{
+    scroll-behavior: smooth;
+}
+section [id]{
+    scroll-margin-top: 6rem;
+}
+.header{
+    background: #C4CBCA;
+    color:#0A0F0D;
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    right: 100%;
+}
+
+.header a {
+    color:white;
+    text-decoration: none;
+    align-items: center;
+}
+
+.foto_baner{
+    width: 75px;
+    right: 75px;    
+}
+
+.contenedor{
+    width: 85%;
+    max-width: 850px;
+    margin: auto;  
+}
+
+.logo_nav_contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-icon{
+    display: none;
+}
+
+.navegacion ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navegacion ul li{
+   display: inline-block;   
+}
+
+.navegacion ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s linear;
+    border-radius: 5px;
+}
+
+.navegacion ul li a:hover{
+    background: #0A0F0D;
+}
+
+@media only screen and (max-width:767px)
+{
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+    }
+    .navegacion {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navegacion ul{
+        display: none;
+    }
+    .navegacion ul.show{
+        display: block;
+    }
+    .navegacion ul li{   
+        display: block;   
+    }
+    .navegacion ul li a {
+        display: block;
+        padding: 0.5rem 0rem;
+        transition: all 0.2s linear;
+        border-radius: 5px;
+    }
+    .navegacion ul li a:hover{
+        background-color: white;
+    }
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 1.3em;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.stack-icons{
+    text-align: center;
+}
+.stack-icons i{
+    display:inline;
+}
+.inicio{
+    text-align: center;
+    margin: 0;
+    padding-top: 2%;
+
+}
+.inicio img{
+    border-radius: 100%;
+    width: 150px;
+}
+.stack {
+    margin-top: 2%;
+}
+.certificaciones{
+    margin-top: 2%;
+}
+.items_certificaciones li{
+list-style: none;
+}
+.contenedor-principal{
+    margin-top: 4em;
+    padding: 0;
+}
+
+.vista_previa_proyecto{
+    width: 100%;
+    right: 100%;
+}
+.footer{
+    background-color: #C4CBCA;
+    text-align: center;
+}
+.iconos-contacto{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    min-width: auto;
+    display:flex;
+    justify-content: space-around;
+}
+
+.iconos-contacto a{
+    text-decoration: none;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #0A0F0D;
+    border-radius: 50%;
+}
+.iconos-contacto-proyecto a{
+    color: #0A0F0D;
+    text-decoration: none;
+}

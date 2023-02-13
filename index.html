@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/1150/1150635.png">
+        <title>Curriculum Vitae</title>
+        <link rel="stylesheet" type="text/css" href="style.css">-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/2194a52288.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section class="contenedor-principal">
+           <header class="header">
+                <div class="contenedor logo_nav_contenedor">
+                    <img  class="foto_baner" src="https://pilotcv.aero/static/images/package-complete.svg" alt="Logo Cv">
+                    <span class="menu-icon">Ver Menú</span>
+                    <nav class="navegacion"><!--resolver links-->
+                        <ul class="links">                    
+                            <li> <a href="#inicio">Inicio</a> </li>
+                            <li> <a href="#acerca">Acerca de Mi</a> </li>
+                            <li> <a href="#stack">Stack</a> </li>
+                            <li> <a href="#certificaciones">Certificaciones</a> </li>
+                            <li> <a href="#proyectos">Proyectos</a> </li>
+                            <li> <a href="#contacto">Contacto</a> </li>
+                        </ul>
+                    </nav>
+                </div>   
+            </header>
+
+
+            <section class="inicio" id="inicio">
+                
+                    <img  class="foto_perfil" src="" alt="foto del usuario" id="foto">
+                    <h1>Nombre y Apellido: <span type = "text" id ="nombre"></span></h1>
+                
+            </section>
+
+            <section class="acerca" id="acerca">
+                <h2> <strong>Acerca de Mi</strong> </h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ligula dolor, dictum nec tellus vitae, 
+                    ultricies consequat nisl. Donec sapien justo, porta at accumsan ac, mattis eu mauris. Duis id fringilla elit. 
+                    Pellentesque tempus efficitur fringilla. Cras leo urna, luctus sed imperdiet nec, accumsan id lorem. 
+                    Sed consequat turpis lorem, in pretium ante maximus in. Sed convallis porttitor blandit. Suspendisse gravida 
+                    arcu sed justo rutrum pharetra. Vivamus imperdiet nisi eu ante tempus convallis. Quisque non lectus leo. 
+                    Donec pulvinar placerat risus, eget rhoncus libero bibendum quis. Nunc hendrerit justo nulla, nec convallis nibh viverra a.  
+                </p>
+            </section>
+
+            <section class="stack" id="stack">      
+                <h2> <strong>Stack</strong> </h2>
+                <p>
+                    El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo para aquellos interesados. 
+                    Las secciones 1.10.32 y 1.10.33 de "de Finibus Bonorum et Malorum" por Cicero son también reproducidas en su forma 
+                    original exacta, acompañadas por versiones en Inglés de la traducción realizada en 1914 por H. Rackham.
+                </p>
+                <div class="stack-icons">
+                    <i class="fa-brands fa-html5 fa-2x"></i>
+                    <i class="fa-brands fa-css3 fa-2x"></i>
+                    <i class="fa-brands fa-square-js fa-2x"></i>
+                    <i class="fa-brands fa-git-alt fa-2x"></i>
+                </div>
+            </section>
+            
+            <section class="certificaciones" id="certificaciones">
+                <h2> <strong>Certificaciones</strong> </h2>
+                <ul class="items_certificaciones">
+                    <div class="items_nombre_certificaciones">
+                        <li class="icono_certificaciones">    
+                            <i class="fa-solid fa-certificate"></i>
+                            <strong>certificacion 1</strong>
+                            <span class="detalle_certificaciones">"No hay nadie que ame el dolor mismo, que lo busque, lo encuentre y lo quiera, simplemente porque es el dolor."</span>
+                        </li>
+                    </div>
+                    
+                    <div class="items_nombre_certificaciones">
+                        <li class="icono_certificaciones">    
+                            <i class="fa-solid fa-certificate"></i>
+                            <strong>certificacion 2</strong>
+                            <span class="detalle_certificaciones">"No hay nadie que ame el dolor mismo, que lo busque, lo encuentre y lo quiera, simplemente porque es el dolor."</span>
+                        </li>
+                    </div>
+                
+                    <div class="items_nombre_certificaciones">
+                        <li class="icono_certificaciones">    
+                            <i class="fa-solid fa-certificate"></i>
+                            <strong>certificacion 3</strong>
+                            <span class="detalle_certificaciones">"No hay nadie que ame el dolor mismo, que lo busque, lo encuentre y lo quiera, simplemente porque es el dolor."</span>
+                        </li>
+                    </div>
+
+                    <div class="items_nombre_certificaciones">
+                        <li class="icono_certificaciones">    
+                            <i class="fa-solid fa-certificate"></i>
+                            <strong>certificacion 4</strong>
+                            <span class="detalle_certificaciones">"No hay nadie que ame el dolor mismo, que lo busque, lo encuentre y lo quiera, simplemente porque es el dolor."</span>
+                        </li>
+                    </div>               
+                </ul>
+            </section>
+
+            <section class="proyectos" id="proyectos">
+                <h2>Proyectos</h2>
+
+                <h3><strong>TAEKWONDOITF online</strong></h3>
+                <a class="link_vista_previa_proyecto" href="https://taekwondoitf.online/" target="_blank">
+                    <img class="vista_previa_proyecto" src="https://www.gabodev.online/src/img/taekwondoitfonline.png" alt="Vista previa del sitio Web">
+                </a>
+                <h4><strong>Detalle del Proyecto</strong></h4>
+                <p>
+                    Aquí puse en práctica lo aprendido : consumo de API Rest, 
+                    funcionas asíncronas con Fetch, Async-Await y el manejo de promesas. 
+                    También aprendí a estructurar y desestructurar datos JSON.
+                </p>
+                <div class="iconos-contacto-proyecto">
+                <a href="github">
+                    <a class="fa-brands fa-github fa-2x" href="https://github.com/gabodev-ar/appweather" target="_blank">
+                </a>
+                <a href="ir_web">
+                    <a class="fa-solid fa-square-up-right fa-2x" href="https://taekwondoitf.online/" target="_blank">
+                </a>
+                </div>
+
+                <h3><strong>APPWEATHER online</strong></h3>
+                <a class="link_vista_previa_proyecto" href="https://appweather.online/" target="_blank">
+                    <img class="vista_previa_proyecto" src="https://www.gabodev.online/src/img/appweatheronline.png" alt="Vista previa del sitio Web">
+                </a>
+                <h4><strong>Detalle del Proyecto</strong></h4>
+                <p>
+                    Aquí puse en práctica lo aprendido : consumo de API Rest,
+                    funcionas asíncronas con Fetch, Async-Await y el manejo de
+                    promesas. También aprendí a estructurar y desestructurar datos
+                    JSON.
+                </p>
+                <div class="iconos-contacto-proyecto">
+                    <a href="github">
+                        <a class="fa-brands fa-github fa-2x" href="https://github.com/gabodev-ar/appweather" target="_blank">
+                    </a>
+                            
+                    <a href="ir_web">
+                        <a class="fa-solid fa-square-up-right fa-2x" href="https://appweather.online/" target="_blank">
+                    </a>
+                </div>
+            </section>
+
+            <section class="contacto" id="contacto">
+                <h2><strong>Contacto</strong></h2>
+                <p>Correo: <span id="correo"> </span> </p>
+                <p>Telefono: <span id="telefono"> </span> </p> 
+                <div class="iconos-contacto">
+                    <a href="github">
+                        <a class="fa-brands fa-github fa-1.5x" href="https://github.com/" target="_blank">       
+                    </a>
+            
+                    <a href="linkedin">
+                        <a class="fa-brands fa-linkedin fa-1.5x" href="https://www.linkedin.com/" target="_blank"> 
+                    </a>
+        
+                    <a href="whatsapp">
+                        <a class="fa-brands fa-square-whatsapp fa-1.5x" href="https://wa.me/1XXXXXXXXXX" target="_blank">  
+                    </a>
+        
+                    <a href="mail">
+                        <a class="fa-solid fa-envelope fa-1.5x" href=»mailto:mail@example.com» target="_blank">
+                    </a>
+                </div> 
+            </section>
+            
+            <footer class="footer">
+                    <h4>Sitio Desarrollado Por: Miguel Eduardo Rojas Medina</h4>
+            </footer>
+
+            <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+            <script src="script.js"> </script>
+        </section>
+    
+    </body>
+</html>
